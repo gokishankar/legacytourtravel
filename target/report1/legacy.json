@@ -1,0 +1,256 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 49067109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.browseropen()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate the Invalid email for forgotten password",
+        "description": "",
+        "id": "to-validate-the-forgotten-password-in-legacytour-travel-application;to-validate-the-invalid-email-for-forgotten-password",
+        "after": [
+          {
+            "result": {
+              "duration": 4484475600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.browserclose(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5209930900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to click the forgotten password",
+            "match": {
+              "location": "forgottenstepdefinition.user_have_to_click_the_forgotten_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2367349800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to enter Invalid email",
+            "match": {
+              "location": "forgottenstepdefinition.user_have_to_enter_Invalid_email(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fruits",
+                  "pine@123"
+                ]
+              },
+              {
+                "cells": [
+                  "actor",
+                  "suriya@46"
+                ]
+              },
+              {
+                "cells": [
+                  "flower",
+                  "jasmine@567"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2873930900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User have to click reset password button",
+            "match": {
+              "location": "forgottenstepdefinition.user_have_to_click_reset_password_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 684843200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User have to reach reset password page",
+            "match": {
+              "location": "forgottenstepdefinition.user_have_to_reach_reset_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@morning"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13968107900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.browseropen()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To validate the valid email for forgotten password",
+        "description": "",
+        "id": "to-validate-the-forgotten-password-in-legacytour-travel-application;to-validate-the-valid-email-for-forgotten-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1101931000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.browserclose(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2554079000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User have to click the forgotten password",
+            "match": {
+              "location": "forgottenstepdefinition.user_have_to_click_the_forgotten_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 511866400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User have to enter valid email",
+            "match": {
+              "location": "forgottenstepdefinition.user_have_to_enter_valid_email(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "S.NO",
+                  "NAME",
+                  "EMAIL"
+                ]
+              },
+              {
+                "cells": [
+                  "NO ONE",
+                  "fruits",
+                  "pine@123"
+                ]
+              },
+              {
+                "cells": [
+                  "NO TWO",
+                  "actor",
+                  "suriya@46"
+                ]
+              },
+              {
+                "cells": [
+                  "NO THRE",
+                  "flower",
+                  "jasmine@567"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 708699600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User have to click reset password button",
+            "match": {
+              "location": "forgottenstepdefinition.user_have_to_click_reset_password_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448224000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User have to reach reset password page",
+            "match": {
+              "location": "forgottenstepdefinition.user_have_to_reach_reset_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@morning"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Forgotten password in legacytour travel application",
+    "description": "",
+    "id": "to-validate-the-forgotten-password-in-legacytour-travel-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/admin/eclipse-workspace/cucumberlegacy/src/test/resources/Feature/forgotten.feature",
+    "tags": [
+      {
+        "name": "@morning",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  }
+]

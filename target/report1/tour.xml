@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="84.092079">
+    <testcase classname="To validate the Forgotten password in legacytour travel application" name="To validate the Invalid email for forgotten password" time="64.782108">
+        <system-out>
+            <![CDATA[When User have to click the forgotten password..............................passed
+And User have to enter Invalid email........................................passed
+And User have to click reset password button................................passed
+Then User have to reach reset password page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate the Forgotten password in legacytour travel application" name="To validate the valid email for forgotten password" time="19.309971">
+        <system-out>
+            <![CDATA[When User have to click the forgotten password..............................passed
+And User have to enter valid email..........................................passed
+And User have to click reset password button................................passed
+Then User have to reach reset password page.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
